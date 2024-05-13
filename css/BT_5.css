@@ -1,0 +1,5 @@
+.horizontal-line {
+    border: none;
+    height: 1px;
+    background-color: blue; /* Màu xanh */
+    width: 100%; /* Chiều rộng 100% */

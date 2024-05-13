@@ -1,0 +1,202 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-align: justify;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: aqua;
+}
+
+#container {
+    width: 90%;
+    height: 85vh;
+    background-color: gray;
+}
+
+header{
+    width: 90%;
+    height: 15%;
+    background-color: rgb(220, 153, 153);
+    float: left;
+    margin-left: 5%;
+}
+
+header .logo img{
+    width: 90px;
+    margin-top: 20px;
+}
+header #search{
+    float: right;
+    margin: 3% 3%;
+    background-color: orange;
+    height: 25px;
+    width: 510px;
+    border-radius: 7px;
+}
+header #search .search {
+    margin-top: 2px;
+    padding-left: 3px;
+    
+}
+header #search .search input{
+    width: 350px;
+    border-radius: 5px;
+    
+}
+header #search .search a{
+    text-decoration: none;
+    color: white;
+}
+nav{
+    width: 90%;
+    height: 5%;
+    margin-left: 5%;
+    background-color: #fffdfd;
+    background: linear-gradient(45deg, rgb(184, 179, 179), rgb(184, 179, 179));
+    border-bottom: 1px solid black;
+    box-shadow: black 0px 1px;
+    float: left;
+}
+
+nav #menu{
+
+}
+
+nav #menu li{
+    display: inline-block;
+    margin: 5px 5px 30px 30px;
+    float: left;
+}
+
+nav #menu li a{
+    text-decoration: none;
+    font-weight: 900;
+    color: black;
+}
+
+nav #menu li a:hover{
+    color: #fff;
+    background-color: orange;
+    padding: 5px 20px;
+    border-radius: 10px;
+}
+aside{
+    background-color: aquamarine;
+    width: 13%;
+    height: 65%;
+    float: left;
+    margin-left: 5%;
+}
+
+aside #menu2 li{
+    display: block;
+    margin: 15px 15px;
+
+}
+aside #menu2 li a{
+    text-decoration: none;
+
+    font-weight: 900;
+    color: black;
+}
+aside #menu2 li a:hover{
+    color: #fff;
+    background-color: red;
+    width: 100%;
+    padding: 15px 20px;
+    
+}
+
+main{
+    width: 77%;
+    height: 65%;
+    background-color: #fff;
+    float: left;
+}
+
+
+main .clickl{
+    position: absolute;
+    width: calc(2% + .3em);
+    height: 56px;
+    top: 250px;
+}
+main .clickr{
+    position: absolute;
+    width: calc(2% + .3em);
+    height: 56px;
+    top: 250px;
+    right: 15%;
+    float: right;
+}
+main .fa{
+    /* width: 20px;
+    height: 50px; */
+    display: inline-block;
+    font: normal normal normal 14px / 1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+main #products{
+    background-color: azure;
+    height: 95%;
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 1%;
+}
+main #products .products{
+    width: 10%;
+    height: 20vh;
+    float: left;
+    margin-right: 25px;
+    margin-top: 2%;
+}
+
+main #products .products img{
+    width: 100%;
+    border: 3px solid wheat;
+}
+
+main #products .products a{
+    text-decoration: none;
+    color: orange;
+    font-size: 10p;
+}
+
+section{
+    width: 90%;
+    height: 10%;
+    margin-left: 5%;
+    float: left;
+    background-color: royalblue;
+}
+
+section p .chon{
+    width: 150px;
+    height: 35px;
+}
+section p .tim{
+    width: 80px;
+    height: 35px;
+    background-color: rgb(167, 167, 232);
+    text-align: center;
+}
+footer{
+    width: 90%;
+    height: 4%;
+    margin-top: 6px;
+    margin-left: 5%;
+    float: left;
+    background-color: rgb(196, 224, 224);
+    float: left;
+    border-top: 1px solid black;
+}
+footer p{
+    margin-top: 2px;
+
+}

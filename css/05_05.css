@@ -1,0 +1,36 @@
+* {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: justify;
+}
+
+body {
+    background: url(../media/background.png) no-repeat;
+    background-size: cover;
+}
+
+.logo {
+    width: 50px;
+}
+
+.nav-link:hover{
+    color:#FFF;
+}
+
+#logo a{
+    text-decoration: none;
+    font-weight: 900;
+    color: black;
+}
+
+.c-item{
+    height: 40%;
+
+}
+
+.c-img{
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(0.6);
+}

@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-align: justify;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url("../image/body_8a.png");
+    height: 100vh;
+}
+
+header{
+    height: 23%;
+    width: 86%;
+    margin-left:7.2% ;
+}
+
+header #login{
+    width: 30%;
+    height: 100%;
+    float: left
+}
+header #login form a{
+    text-decoration: none;
+    color: aliceblue;
+}
+header #login form i{
+    color: yellow;
+}
+header #lang{
+    color: yellow;
+}
+header #lang a{
+    color: yellow;
+}
+header #logo{
+    width: 40%;
+    height: 100%;
+    float: left;
+}
+header #logo img{
+    width: 100%;
+    height: 100%;
+}
+header nav{
+    width: 30%;
+    height: 100%;
+    float: right;
+    text-align: right;
+}
+
+header nav a{
+    display: block;
+    text-align: center;
+    padding: 5px ;
+    margin-left: 30%;
+    border: 1px solid yellow;
+    border-radius: 7px;
+    background-color: yellow;
+    color: black;
+    width: 150px;
+    height: 30px;
+}
+aside {
+    width: 85%;
+    margin-left:7.2% ;
+    height: 7%;
+}
+
+aside ul li{
+    display: inline-block;
+    width: 16%;
+    height: 100%;
+    line-height: 40px;
+    margin:  auto;
+    
+    
+}
+aside li{
+    color: aliceblue;
+    border: 0 solid;
+    
+}
+#bb{
+    width: 100%;
+    height: 50%;
+    float: left;
+    background-image: url("../image/bb_8a.png");
+}
+main{
+    height: 100%;
+    width: 55%;
+    
+    margin-left:7.2% ;
+    color: aliceblue;
+    float: left;
+    
+}
+main h1{
+    
+    font-weight: 500;
+}
+main form{
+    
+    background-color: black;
+    width: 700px;
+    height: 80%;
+    padding: 3px;
+}
+main form #email{
+    height: 35px;
+    width: 450px;
+    border-radius:8px ;
+}
+main form #pass{
+    height: 35px;
+    width: 450px;
+    border-radius:8px ;
+}
+main form #login{
+    float: left;
+    width: 300px;
+    height: 35px;
+    text-align: center;
+    background-color: red;
+    border-radius:8px ;
+}
+section{
+    height: 100%;
+    width: 24%;
+    float: left;
+}
+
+section form{
+    border: 1px solid wheat;
+    border-radius: 5px;
+    height: 70%;
+    width: 350px;
+    color: aliceblue;
+    margin-top: 20%;
+    margin-left: -25%;
+    padding:30px ;
+}
+section form p{
+    
+    font-weight: 600;
+}

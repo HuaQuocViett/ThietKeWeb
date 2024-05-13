@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-align: justify;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #f0edec;
+}
+
+#container{
+    width: 90%;
+    height: 90vh;
+    margin: 3% auto;
+}
+
+header{
+    width: 100%;
+    height: 15%;
+    float: left;
+    border-bottom: 3px solid burlywood ;
+}
+header img{
+    margin-top: 55px;
+}
+header a{
+    margin: 15px;
+    text-decoration: none;
+    color: black;
+    font-weight: 900;
+}
+#login{
+    margin-top: -85px;
+    text-align: left;
+}
+
+header #login .ten{
+    text-align: center;
+    margin-left: 5px;
+    
+}
+
+#menu{
+    margin-top: 65px;
+    text-align: right;
+    margin-right: 2%;
+    letter-spacing: px;
+    
+}
+header a:hover{
+    color: burlywood;
+}
+
+nav{
+    width: 100%;
+    height: 35%;
+    float: left;
+}
+
+nav img{
+    width: 100%;
+    height: 90%;
+    padding-top: 20px;
+    margin: auto;
+}
+
+aside{
+    width: 15%;
+    height: 50%;
+    float: left;
+}
+
+aside a{
+    text-decoration: none;
+    display: block;
+    color: rgb(201, 160, 109);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 900;
+    margin-top: 10%;
+    border: 5px #fff ;
+    background-color: #fff;
+    width: 150px;
+    border-radius: 50px;
+    text-align: center;
+}
+
+aside a:hover{
+    background-color: burlywood;
+    color: #fff;
+}
+
+
+main{
+    width: 85%;
+    height: 50%;
+    float: right;
+}
+
+main div{
+    
+    margin: 30px 20px;
+    float: left;
+}
+
+main div img{
+    width: 100%;
+}
+main div p{
+    font-weight: 100;
+}
+main div input{
+    background-color: burlywood;
+    color: #fff;
+    width: 80px;
+    float: right;
+    border-radius: 10px;
+    text-align: center;
+}

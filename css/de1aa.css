@@ -1,0 +1,89 @@
+*{
+    padding: 0;
+    margin: ;
+    box-sizing: border-box;
+    text-align: justify;
+}
+
+body{
+    background: url("../image/nen1a.png");
+}
+#container{
+    width: 80%;
+    height: 90vh;
+    background: #fff;
+    margin: 3% auto;
+}
+header{
+    background: url("../image/Screenshot\ 2024-03-07\ 190951.png");
+    width: 100%;
+    height: 20%;
+    float: left;
+}
+header h2{
+    color: red;
+    text-align: center;
+    margin-top: 50px;
+}
+header form{
+    color: blue;
+    font-style:italic ;
+    text-align: right;
+    padding-right: 1%;
+    margin-top: 2%;
+}
+nav{
+    background-color: aqua;
+    float: left;
+    width: 20%;
+    height: 70%;
+}
+nav a{
+    padding: 5% 5%;
+    display: block;
+    font-weight: 900;
+    color:  blue;
+    border-bottom: solid 2px blue;
+    text-decoration: none;
+}
+nav a:hover{
+    color: red;
+    background-color:   blueviolet;
+}
+main{
+    background-color:aquamarine;
+    width: 60%;
+    height: 70%;
+    float: left;
+}
+main div{
+    text-align: center;
+    width: 40%;
+    height: 40%;
+}
+
+main div img{
+    text-align: center;
+    width: 100%;
+}
+main div p{
+    text-align: center;
+    margin-top:2% ;
+}
+main div input{
+    color: red;
+    text-align: center;
+    width: 60px;
+}
+aside{
+    background-color: blueviolet;
+    float: right;
+    width: 20%;
+    height: 70%;
+}
+footer{
+    background: url("../image/footera1.png");
+    width: 100%;
+    height: 10%;
+    float: left;
+}

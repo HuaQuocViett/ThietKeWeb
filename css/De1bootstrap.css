@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: justify;
+}
+
+body{
+    background: url("../image/background.png") no-repeat;
+    background-size: cover;
+}
+
+.logo{
+    width: 100px;
+}
+.nav-link:hover{
+    color: #fff;
+}
+
+.pic{
+    width: 80%;
+}
+
+footer{
+    background: linear-gradient(#f59d9d,#df4891);
+}

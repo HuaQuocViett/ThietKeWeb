@@ -1,0 +1,28 @@
+.main-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #ccc; /* border bottom */
+    padding: 10px; /* padding để tạo khoảng trắng phía dưới */
+}
+
+.logo {
+    flex: 1; /* Cho phần logo mở rộng để lấp đầy không gian trống */
+    text-align: center; /* Căn giữa vùng logo */
+}
+
+.left-menu, .right-menu {
+    flex: 1; /* Phần menu bên trái và bên phải mở rộng để lấp đầy không gian trống */
+    text-align: center; /* Căn giữa các mục menu */
+    
+}
+
+.left-menu {
+    margin-right: 10px; /* Tạo khoảng cách giữa menu bên trái và logo */
+    display: inline;
+}
+
+.right-menu {
+    margin-left: 10px; /* Tạo khoảng cách giữa menu bên phải và logo */
+    display: inline;
+}
